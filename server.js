@@ -9,9 +9,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const pusher = new Pusher({
-  appId: "xxxx",
-  key: "xxxxxxxxxx",
-  secret: "xxxxxxxxxx",
+  appId: "1769723",
+  key: "440cb31f977d8a58b6ad",
+  secret: "34f1a409d13d15668032",
   cluster: "ap1",
   useTLS: true,
 });
